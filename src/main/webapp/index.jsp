@@ -11,7 +11,9 @@
     <title>Ejemplo MVC</title>
 </head>
 <body>
-<h1>Holaaaaaaaaaaaa</h1>
-<a href="${pageContext.request.contextPath}/ServletControlador">Ir al Servlet</a>
+<h1>Bienvenido</h1>
+<a href="${pageContext.request.contextPath}/ServletControlador">Ir a la Solicitud</a>
+<a href="${pageContext.request.contextPath}/ServletCredito">Ir a el Credito</a>
+
 </body>
 </html>
